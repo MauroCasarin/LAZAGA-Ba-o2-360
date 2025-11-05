@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 6.1.13/18080
 // Filename: 360 Interfas St.ggsk
-// Generated 2025-11-05T14:54:33
+// Generated 2025-11-05T14:58:35
 
 function pano2vrSkin(player,base) {
 	player.addVariable('vis_video_file', 2, false);
@@ -161,7 +161,6 @@ function pano2vrSkin(player,base) {
 		}
 		me._icono360.onclick=function (e) {
 			player.setUseGyro(true);
-			player.setUseGyro(false);
 		}
 		me._icono360.ggUpdatePosition=function (useTransition) {
 			if (useTransition==='undefined') {
