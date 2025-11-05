@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 6.1.13/18080
 // Filename: 360 Interfas St.ggsk
-// Generated 2025-11-05T14:27:36
+// Generated 2025-11-05T14:47:25
 
 function pano2vrSkin(player,base) {
 	player.addVariable('vis_video_file', 2, false);
@@ -117,7 +117,13 @@ function pano2vrSkin(player,base) {
 		el=me._icono360=document.createElement('div');
 		els=me._icono360__img=document.createElement('img');
 		els.className='ggskin ggskin_icono360';
-		hs=basePath + 'images/icono360.png';
+		hs='data:image/png;base64,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';
 		els.setAttribute('src',hs);
 		els.ggNormalSrc=hs;
 		els.setAttribute('alt','Restablecer vista');
@@ -128,18 +134,18 @@ function pano2vrSkin(player,base) {
 		el.appendChild(els);
 		el.ggSubElement = els;
 		el.ggId="Icono360";
-		el.ggDx=0;
+		el.ggDx=1;
 		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 		el.ggVisible=true;
 		el.className="ggskin ggskin_image ";
 		el.ggType='image';
 		hs ='';
-		hs+='bottom : 67px;';
-		hs+='height : 60px;';
+		hs+='bottom : 69px;';
+		hs+='height : 77px;';
 		hs+='left : -10000px;';
 		hs+='position : absolute;';
 		hs+='visibility : inherit;';
-		hs+='width : 60px;';
+		hs+='width : 80px;';
 		hs+='pointer-events:auto;';
 		el.setAttribute('style',hs);
 		el.style[domTransform + 'Origin']='50% 50%';
@@ -151,6 +157,7 @@ function pano2vrSkin(player,base) {
 		}
 		me._icono360.onclick=function (e) {
 			player.setUseGyro(true);
+			player.setUseGyro(false);
 		}
 		me._icono360.ggUpdatePosition=function (useTransition) {
 			if (useTransition==='undefined') {
