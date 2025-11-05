@@ -18,7 +18,11 @@
     <label wordwrap="1" backgroundcolor="0xffffff" backgroundalpha="1" height="20" borderalpha="1" width="180" textcolor="0x000000" bordercolor="0x000000" textalpha="1" border="1" background="1" borderradius="1" enabled="1"/>
     <polystyle backgroundcolor="0x0000ff" handcursor="1" mode="0" backgroundalpha="0.25098" borderalpha="1" bordercolor="0x0000ff"/>
   </hotspots>
-  <media/>
+  <media>
+    <image fov="20.919" clickmode="0" rotx="0.000" rotz="-111.000" handcursor="0" height="720" id="Element01" roty="0.000" width="716" stretch="1.000" pan="-244.200" tilt="89.580">
+      <source url="media/RB logo.jpg"/>
+    </image>
+  </media>
   <transition softedge="0" zoomout="0" zoomspeed="2" type="crossdissolve" blendtime="1" zoomafteroutfov="20" blendcolor="0x000000" zoomoutpause="1" zoomfov="20" zoomafterinfov="90" zoomin="0" enabled="1"/>
   <animation useinautorotation="0" animsequence="Animation01" syncanimationwithvideo="0"/>
   <control simulatemass="1" rubberband="0" lockedkeyboard="0" invertcontrol="1" lockedmouse="0" speedwheel="1" dblclickfullscreen="0" contextfullscreen="1" contextvr="1" lockedwheel="0" hideabout="1" sensitivity="8" invertwheel="0" contextprojections="0" lockedkeyboardzoom="0"/>
