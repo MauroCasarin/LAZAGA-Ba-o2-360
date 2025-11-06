@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<panorama hideabout="1" appversion="6.1.13" apprev="18080" id="node1">
-  <input width="2048" overlap="1" levelbias="0.400" levelbiashidpi="1.000" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" levelingroll="0" levelingpitch="0" height="2048" leveltilesize="510">
-    <level width="2048" preload="0" predecode="0" height="2048"/>
-    <level width="1024" preload="0" predecode="0" height="1024"/>
-    <level width="512" preload="0" predecode="0" height="512"/>
-    <level width="256" preload="1" predecode="1" height="256"/>
-    <preview strip="1" color="0x808080"/>
+<panorama id="node1" hideabout="1" apprev="18080" appversion="6.1.13">
+  <input leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" leveltilesize="510" levelingpitch="0" levelbiashidpi="1.000" overlap="1" levelingroll="0" height="2048" levelbias="0.400" width="2048">
+    <level preload="0" predecode="0" height="2048" width="2048"/>
+    <level preload="0" predecode="0" height="1024" width="1024"/>
+    <level preload="0" predecode="0" height="512" width="512"/>
+    <level preload="1" predecode="1" height="256" width="256"/>
+    <preview color="0x808080" strip="1"/>
   </input>
-  <view pannorth="0" fovmode="0">
-    <start pan="7.3608" tilt="-0.351033" projection="4" fov="81.2099"/>
-    <flyin pan="0" tilt="-90" projection="9" fov="170"/>
-    <min pan="0" fovpixel="2" tilt="-90"/>
-    <max pan="360" scaletofit="1" fovfisheye="360" fovstereographic="270" tilt="90" fov="120"/>
+  <view fovmode="0" pannorth="0">
+    <start pan="7.3608" projection="4" tilt="-0.351033" fov="81.2099"/>
+    <flyin pan="0" projection="9" tilt="-90" fov="170"/>
+    <min pan="0" tilt="-90" fovpixel="2"/>
+    <max pan="360" tilt="90" fov="120" fovstereographic="270" scaletofit="1" fovfisheye="360"/>
   </view>
-  <userdata copyright="" comment="" datetime="" latitude="" title="" info="" description="" source="" longitude="" nodeid="node1" customnodeid="" tags="Renders" heading="0" author=""/>
-  <hotspots width="180" wordwrap="1" height="20">
-    <label width="180" textalpha="1" enabled="1" wordwrap="1" borderalpha="1" backgroundcolor="0xffffff" background="1" bordercolor="0x000000" backgroundalpha="1" borderradius="1" textcolor="0x000000" height="20" border="1"/>
-    <polystyle handcursor="1" mode="0" borderalpha="1" backgroundcolor="0x0000ff" bordercolor="0x0000ff" backgroundalpha="0.25098"/>
+  <userdata author="" datetime="" latitude="" copyright="" nodeid="node1" comment="" tags="Renders" info="" longitude="" description="" source="" heading="0" customnodeid="" title=""/>
+  <hotspots height="20" width="180" wordwrap="1">
+    <label border="1" bordercolor="0x000000" backgroundalpha="1" borderradius="1" textcolor="0x000000" borderalpha="1" backgroundcolor="0xffffff" enabled="1" textalpha="1" height="20" background="1" width="180" wordwrap="1"/>
+    <polystyle mode="0" bordercolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" borderalpha="1" backgroundcolor="0x0000ff"/>
   </hotspots>
   <media>
-    <image pan="-249.310" handcursor="1" width="716" stretch="1.000" rotx="0.000" roty="0.000" rotz="-107.000" clickmode="1" tilt="89.270" id="Element01" fov="14.060" height="720">
+    <image id="Element01" rotx="0.000" pan="-249.310" roty="0.000" tilt="89.270" fov="14.060" rotz="-107.000" handcursor="1" clickmode="1" stretch="1.000" height="720" width="716">
       <source url="media/RB logo.jpg"/>
     </image>
-    <image pan="-156.120" handcursor="1" width="541" stretch="1.000" rotx="-42.000" roty="23.000" rotz="21.000" clickmode="1" tilt="-33.020" id="Element02" fov="6.116" height="864">
+    <image id="Element02" rotx="-42.000" pan="-156.120" roty="23.000" tilt="-33.020" fov="6.116" rotz="21.000" handcursor="1" clickmode="1" stretch="1.000" height="864" width="541">
       <source url="media/Smart toilet adosado a pared-01.jpg"/>
     </image>
-    <image pan="-139.010" handcursor="1" width="2251" stretch="1.000" rotx="0.000" roty="0.000" rotz="-145.000" clickmode="1" tilt="-86.010" id="Element03" fov="12.840" height="2256">
+    <image id="Element03" rotx="0.000" pan="-139.010" roty="0.000" tilt="-86.010" fov="12.840" rotz="-145.000" handcursor="1" clickmode="1" stretch="1.000" height="2256" width="2251">
       <source url="media/Plano base-01.png"/>
     </image>
   </media>
-  <transition type="crossdissolve" zoomspeed="2" enabled="0" zoomfov="20" softedge="0" zoomout="0" blendtime="1" zoomafterinfov="90" zoomin="0" blendcolor="0x000000" zoomafteroutfov="20" zoomoutpause="1"/>
+  <transition zoomafterinfov="90" blendcolor="0x000000" blendtime="1" zoomoutpause="1" type="crossdissolve" zoomfov="20" zoomafteroutfov="20" zoomin="0" zoomspeed="2" enabled="0" softedge="0" zoomout="0"/>
   <flyintransition enabled="1" speed="1.01"/>
-  <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
-  <control lockedkeyboard="0" lockedwheel="0" contextfullscreen="1" dblclickfullscreen="0" hideabout="1" lockedmouse="0" rubberband="0" invertcontrol="1" contextprojections="0" lockedkeyboardzoom="0" sensitivity="8" simulatemass="1" invertwheel="0" speedwheel="1" contextvr="1"/>
+  <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+  <control speedwheel="1" invertcontrol="1" rubberband="0" lockedwheel="0" hideabout="1" invertwheel="0" simulatemass="1" dblclickfullscreen="0" contextfullscreen="1" sensitivity="8" lockedkeyboardzoom="0" lockedmouse="0" lockedkeyboard="0" contextprojections="0" contextvr="1"/>
 </panorama>
